@@ -1,0 +1,81 @@
+body{
+background-image: url('../images/img.jpg') ;
+}
+#container{
+width: 950px;
+margin: 0 auto ;
+padding: 37px ;
+background-color: white;
+border: 1px solid black;
+}
+#header{
+width: 950px ;    
+ background-color: white ;
+height: 80px ;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+#titleheader{
+
+width: 300px ;
+float: left ;
+margin-top: 20px ;
+font-family: verdana ;
+font-weight: bold  ;
+font-size: 35px ;
+}
+#slogan{
+
+padding: 10px ;
+margin-top: 19px ;
+width: 200px  ;
+float: left  ;
+font-family: verdana ;
+font-size: 10px ;
+}
+
+#links ul li{
+float: right ;
+margin-top: 15px;
+margin-left: 30px  ;
+font-weight: bold;
+}
+#links a{
+text-decoration: none;
+color: black;
+}
+#links  a:hover{
+color:yellow;
+
+}
+#boxtext{
+width: 940px ;
+padding: 5px ;
+margin-top: 20px;
+background-color: #CDC9C9 ;
+}
+#boxtext p{
+font-family: verdana ;
+font-weight: italic  ;
+font-size: 12px ;
+}
+
+#welcome{
+margin-top: 20px ;
+width: 500px ;
+padding: 7px ;
+background-color: black;
+}
+#welcome h1{
+color: white;
+font-family:  "courier new" ;
+font-weight: italic  ;
+font-size: 17px ;
+}
+#textcontent{
+width: 950px  ;
+}
+#textcontent p{
+font-family: verdana ;
+font-size: 14px ;
+}

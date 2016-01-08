@@ -1,0 +1,337 @@
+body{
+    font-family:sans-serif;
+    zoom:1;
+    margin:0;
+    padding:0;
+}
+
+/****************************************/
+/**************** LOGO *****************/
+
+#logo img{
+    max-width:120px;
+}
+#logo {
+    padding:0;
+    margin:10px 0px 0px 0px;
+}
+ 
+/****************************************/
+/**************** MENU HEADER *****************/
+
+.menu{
+    margin:16px 0px 0px 0px;
+    padding:0px;
+    list-style:none;
+    float:right;
+}
+.menu li{
+    float:left;
+    padding:9px;
+    margin-left:10px;
+}
+.menu a{
+    text-decoration:none;
+    font-size:13px;
+    color:grey;
+    font-weight:bolder;
+}
+.menu a:hover, .active a{
+    color:black;
+}
+
+/****************************************/
+/**************** HEADER *****************/
+
+#wrap-header {
+    margin-bottom:15px;
+    margin-top:15px;
+}
+#wrap-slider{
+    padding:60px 40px;
+    height:180px;
+    background:url(../img/cao5.jpg)  fixed;
+    background-repeat: no-repeat;
+    background-size: 1900px;
+}
+
+/****************************************/
+/**************** SLIDER *****************/
+
+.title {
+    text-align:center;
+    color:white;
+    text-shadow: 1px 1px black;
+}
+.link-home {
+    margin-top:19px;
+}
+
+/****************************************/
+/**************** ALL ROWS *****************/
+
+#wrap-content {
+    margin-top:20px;
+}
+/****************************************/
+/**************** ROW 1 *****************/
+
+#row-1-welcome h1{
+    text-align:center;
+}
+#row-1 h1{
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    color:#4d4b4b;
+}
+#row-1-welcome {
+    width:350px;
+    height:40px;
+    margin:0 auto;
+}
+#row-1-text {
+    margin-top:10px;
+    text-align:center;
+}
+#row-1-text p{
+    color:#656363;
+    font-size: 18px;
+    line-height: 24px;
+    padding:0px 90px;
+}
+
+/****************************************/
+/**************** ROW 2 *****************/
+
+#row-2{
+    margin-top:60px;
+}
+.row-2-box {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    color:#292727;
+}
+.row-2-box h5{
+    font-size:16px;
+    font-weight:lighter;
+    color:#4b4848;
+}
+.row-2-p {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+}
+.more-link-box{
+    width:19px;
+    height:19px;
+    margin-bottom:20px;
+}
+.more-link{
+    background:url(../img/more1.png);
+    transition:0.3s;
+    -webkit-transition:0.3s;
+    width:19px;
+    height:19px;
+}
+.more-link:hover{
+    background:url(../img/more2.png);
+    transition:0.3s;
+    -webkit-transition:0.3s;
+    width:19px;
+    height:19px;
+}
+
+/****************************************/
+/**************** ROW 3 *****************/
+
+#row-3 {
+    margin-top:85px;
+}
+.img-circle {
+    max-width:270px;
+    padding:15px;
+    border-radius: 500px;
+}
+.row-3-box h3{
+    text-align:center;
+    font-weight:lighter;
+    font-size:17px;
+    color:#1dbac7;
+}
+#row-3 h1{
+    text-align:center;
+    font-size:17px;
+    font-weight:bold;
+    color:#4d4b4b;
+}
+.hr-line {
+    width:290px;
+    color:black;
+    margin-top:-3px;
+    border-bottom: 2px solid grey;
+}
+.row-3-box p{
+    font-size:18px;
+    text-align:center;
+    color:grey;
+}
+#row-3-link {
+    margin-top:15px;
+    text-align:center;
+}
+
+/****************************************/
+/**************** ROW 4 *****************/
+
+#row-4 {
+    margin-top:95px;
+}
+.row-4-img img{
+    max-width:300px;
+}
+.row-4-content {
+    padding-left:50px;
+}
+.row-4-content h1{
+    margin:0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #4f4f4f;
+}
+.row-4-content p{
+    color:#656363;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+/****************************************/
+/**************** ROW 5 *****************/
+
+#row-5{
+    margin-top:85px;
+}
+#row-5-fashion {
+    width:350px;
+    height:40px;
+    margin:0 auto;
+}
+#row-5 h1{
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    color:#4d4b4b;
+}
+#row-5-text{
+    margin-top:10px;
+    margin-bottom:20px;
+    text-align:center;
+}
+.row-5-content {
+    font-size:17px;
+}
+#row-5-text p{
+    color:#656363;
+    font-size:18px;
+    padding:0px 90px;
+}
+#row-5-p {
+    color:#1dbac7;
+    font-size: 17px;
+    line-height: 24px;
+    margin:0;
+    padding:0;
+}
+#row-5-p2 {
+    color:#999999;
+    font-size: 17px;
+    line-height: 24px;
+}
+#row-5-link {
+    margin-top:20px;
+    text-align:center;
+}
+
+/****************************************/
+/**************** ROW 6 *****************/
+
+#wrapper-row-6 {
+    margin-top:80px;
+    background-color:#2b949d;
+    padding:20px 0px 40px;
+}
+.row-6-h1 {
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+}
+.row-6-p {
+    font-size: 17px;
+    line-height: 24px;
+    color:white;
+    text-align:center;
+    padding:0px 90px;
+}
+
+/****************************************/
+/************* SOCIAL LINKS *************/
+
+.social_icons {
+	overflow: hidden;
+	padding: 0;
+	list-style: none;
+	white-space: nowrap;
+	position: relative;
+	margin: 0px;
+	z-index: 10;
+    float:right;
+}
+.social_icons > li {
+	float: left;
+	cursor: pointer;
+	width: 35px;
+	height: 34px;
+	overflow: hidden;
+    display: inline-block;
+	margin-left: 2px;
+	margin-right: 0;
+}
+.social_icons > li a {
+	width: 35px;
+	height: 34px;
+	overflow: hidden;
+}
+.social_icons > li a img {
+	position: relative;
+	top: 0;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+.social_icons > li a:hover img {
+	position: relative;
+	top: -34px;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+#social {
+    float:right;
+}
+
+/****************************************/
+/*************** FOOTER *****************/
+
+#footer-privacy p{
+    font-family: 'Open Sans', serif;
+    font-size: 12px;
+    color: #FFF;
+    line-height:24px;
+    padding:0;
+    margin:0;
+    margin-top:10px;
+}
+#wrap-footer {
+    background: #4f4f4f;
+    padding:20px 0px 40px;
+}

@@ -1,0 +1,149 @@
+* {
+  font-family: Arial, "Free Sans", sans-serif;
+  padding: 0; margin: 0;
+  background: #0071bc;
+ }
+#container{
+	width: 860px;
+	margin: 0 auto;
+}
+
+#header {
+    width:860px;
+	background-image: url(images/banner.png);
+    height:154px;
+	background-repeat:no-repeat;
+ }
+#boxcard{
+float:right;
+    width: 652px;
+    z-index: 1;
+}
+#boxcard div{
+    float: left;
+    width: 95px;
+    height:143px;
+    background-image: url(images/background-box.png);
+    margin: 5px;
+    border: 1px solid #999;
+    cursor: pointer;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    z-index: 2;
+}
+#boxcard img {
+    border: none;
+    z-index: 3;
+}
+#boxbutton {
+	width:178px;
+	height:140px;
+    margin-top:20px;
+    text-align: center;
+}
+#div_left{
+      width:178px;
+	  float:left;
+}
+.link {
+      font-size: 18px;
+      color: #ffffff;
+      text-decoration: none;
+      background: #0066cc;
+      padding: 5px 10px;
+      -webkit-border-radius: .5em;
+      -moz-border-radius: .5em;
+      border-radius: .5em;
+}
+.link.index {
+	  font-size: 24px;
+      color: #ffffff;
+      text-decoration: none;
+      background: #0066cc;
+      padding: 10px 15px;
+      -webkit-border-radius: .5em;
+      -moz-border-radius: .5em;
+      border-radius: .5em;
+      margin-left: 180px;
+}
+.link:hover {
+	 background: #999;
+}
+#play_button{
+width:53px;
+height:50px;
+float:left;
+padding:10px;
+margin-left:10px;
+}
+#pause_button{
+width:50px;
+height:50px;
+margin-left:90px;
+padding:10px;
+}
+#buttons{
+width:170px;
+margin-top:20px;
+}
+.play {
+  width:53px;
+  height:55px;
+  background-image:url('images/play.png');
+  border:0;
+  outline: none;
+  cursor:pointer;
+}
+.pause {
+  width:45px;
+  height:45px;
+  background-image:url('images/pause.png');
+  border:0;
+  outline: none; 
+  cursor:pointer;
+}
+ .counter {
+  width:150px;
+  height:55px;
+  border:0;
+  outline: none; 
+  cursor:pointer;
+  font-size:50px;
+  padding:0px;
+  margin-top:-20px;
+  margin-left:10px;
+}
+#inst{
+text-align:center;
+width:655px;
+height:550px;
+margin-left:200px;
+background-image:url('images/junior.png');
+background-repeat:no-repeat;
+}
+#jogo{
+width:163px;
+height:80px;
+margin-left:10px;
+background-image:url(images/logo.png);
+background-repeat:no-repeat;
+}
+#acp{
+width:178px;
+height:123px;
+margin-top:20px;
+background-image:url(images/acp.png);
+background-repeat:no-repeat;
+}
+#final{
+background-image:url(images/fim_final.jpg);
+background-repeat:no-repeat;
+width:685x;
+height:510px;
+margin-left:180px;
+margin-top:10px;
+}

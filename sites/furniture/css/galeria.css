@@ -1,0 +1,97 @@
+
+#featured{ 
+    margin:0 auto;
+	width:950px; 
+	position:relative; 
+	border:5px solid white; 
+	height:450px; 
+	background:rgba(255, 255, 255, 0.83);
+}
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:700px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:250px; 
+}
+#featured ul.ui-tabs-nav li{ 
+	padding:1px 0; padding-left:13px;  
+	font-size:12px; 
+	color:#666; 
+}
+#featured ul.ui-tabs-nav li img{ 
+	float:left; margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #eee;
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:11px; font-family:Verdana; 
+	line-height:18px; 
+}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	height:60px; 
+	color:#333;  background:#fff; 
+	line-height:20px;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected{ 
+	background:url('images/selected-item.gif') top left no-repeat;  
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{ 
+	background:rgba(143, 90, 67, 0.3); 
+}
+#featured .ui-tabs-panel{ 
+	width:700px; height:450px; 
+	background:#999; position:relative;
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	top:310px; left:0; right:0;
+	height:140px; 
+	background: rgba(250, 250, 250, .8);
+}
+#featured .info h2{ 
+	font-size:18px; font-family:Georgia, serif; 
+	color:rgba(143, 90, 67, 0.9); padding:5px; margin:10px 5px;
+	overflow:hidden; 
+}
+#featured .info p{ 
+	margin:0 10px; 
+	font-family:Verdana; font-size:11px; 
+	line-height:15px; color:#9b713f;
+}
+
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
+#featured .ui-tabs-panel .info .link2{
+  margin-left: 5px;
+  bottom:10px;
+  padding: 5px;
+  float: left;
+  position: absolute;
+  list-style: none;
+}
+
+#featured .ui-tabs-panel .info .link2 a {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  padding: 8px 20px;
+  margin: 0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  background: white;
+  color: rgba(143, 90, 67, 0.9);
+  box-shadow:2px 2px rgba(184, 127, 94, 0.9);	
+}
+#featured .ui-tabs-panel .info .link2 a:hover{
+    background-color:brown;
+    color:white;
+}

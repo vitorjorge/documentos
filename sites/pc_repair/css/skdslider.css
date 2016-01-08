@@ -1,0 +1,81 @@
+.skdslider{
+    position: relative;
+    display: block;
+    border-radius:4px;
+    overflow:hidden;
+    height:360px;
+}
+.skdslider:after {
+    content: '';
+    padding-bottom:50%;
+    display: block;
+}
+.skdslider ul.slides{ margin:0; padding:0; list-style-type:none;}
+.skdslider ul.slides li
+{
+   display: none;
+}
+.skdslider ul.slides li img{
+    width: 100%;
+	border:0;
+}
+.skdslider ul.slide-navs {
+    bottom: 115px;
+    left: 26%;
+    position: absolute;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.skdslider ul.slide-navs li {
+    float: left;
+	background: url("../img/slide-bg.png") no-repeat scroll 0 0 transparent;
+	height:12px;
+	width:12px;
+	margin-right:4px;
+	cursor:pointer;
+}
+.skdslider ul.slide-navs li.current-slide {
+  background: url("../img/slide-bg-active.png") no-repeat scroll 0 0 transparent;
+}
+.skdslider .slide-desc {
+    background: url("../img/slide_desc.png") repeat scroll 0 0 transparent; 
+    left: 20px;
+    padding: 15px;
+    position: absolute;
+    top:20px;
+    height:170px;
+    width:400px;
+	display:inline-block;
+    border-radius:4px;
+    text-align:center;
+}
+.skdslider .slide-desc > h2 {
+    color: white;
+    font-family:sans-serif;
+    font-size: 25px;
+    margin:0;
+    text-transform: uppercase;
+}
+.skdslider .slide-desc > p {
+    color: white;
+    font-family:sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding:5px 0px;
+}
+/*Some Responsive CSS */
+@media screen and (max-width:767px) {
+	.skdslider .slide-desc > h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+}
+	
+.skdslider .slide-desc > p {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+	
+}

@@ -1,0 +1,53 @@
+
+#main_progressbar p{
+	display: block;
+	width: 326px;
+	height: 341px;
+    z-index:99;
+    float:left;
+}
+#main_progressbar {
+    width: 35%;
+    height: 341px;
+    float: left;
+}
+.cogwheel_shad {
+	position: relative;
+	top: 5px;
+}
+
+.cogwheel {
+	position: absolute;
+	background-image: url("../img/teste.png");
+	background-repeat: no-repeat;
+}
+.cogwheel0.cogwheel.shadow {
+	background-position: -222px -220px;
+}
+.cogwheel1.cogwheel.shadow {
+	background-position: 0 -220px;
+}
+.cogwheel2.cogwheel.shadow {
+	background-position: -377px -220px;
+}
+.cogwheel0.cogwheel{
+	width:143px;
+	height: 143px;
+	background-position: -222px 0;
+	top: 38px;
+	left: 181px;
+}
+.cogwheel1.cogwheel {
+	width:206px;
+	height: 206px;
+	top: 72px;
+	left: 0px;
+}
+.cogwheel2.cogwheel {
+	width:94px;
+	height: 94px;
+	background-position: -377px 0;
+	top: 0px;
+	left: 116px;
+}
+

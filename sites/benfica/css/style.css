@@ -1,0 +1,130 @@
+html{
+    background: url(../img/htmlBG.png);
+}
+body {
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+}
+#container {
+	position: relative;
+	padding-top:10px;
+}
+#header{
+	padding-top:20px;
+	background: url(../img/BG.png);
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	border-bottom: 2px solid black ;
+}
+#header img {
+	float: left;
+	padding-left:20px ;
+	padding-top:2px;
+	width: 230px ;
+}
+#header #nav {
+	float: right;
+	overflow: hidden;
+	padding-right: 20px ;
+}
+#header #nav li {
+	float: left;
+	background: #666666;
+	list-style: none;
+	padding: 6px 9px;
+	height: 14px;
+	line-height: 14px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid black;
+}
+#header #nav li.selected, #header #nav li:hover {
+	background: #333333 url(../img/buttonBG.png) repeat-x;
+	border: 1px solid #solid;
+}
+#nav li a {
+	text-decoration: none;
+	display: block;
+	color:white;
+}
+a {
+	color: white;
+}
+a.button {
+	position: relative;
+	padding: 6px 9px;	
+	text-decoration: none;	
+	font-size: 13px;
+	font-weight: bold;
+}
+a.button:hover {
+	color: #666666;
+}
+#galleria{
+	padding-top: 20px;
+}
+#cachecol{
+	padding-top: 20px;
+}
+#cachecol img{
+	max-width:300px;
+}
+#symbolbenfica{
+	padding-top: 20px;
+	margin-left: 10px ;
+}
+#symbolbenfica img{
+	padding-left: 35px ;
+}
+#main{
+	clear: both;
+    padding-top: 25px ; /*  padding/margin = IE fix */
+	margin-top: -25px ;
+	padding-bottom: 25px ;
+}
+#main h3 {
+	text-shadow: 0 1px 1px black ;
+	padding-bottom: 15px ;
+	background: url(../img/lineBG.png) repeat-x 0 100% ;
+}
+#sub2 img{
+	max-width: 300px ;
+	padding-bottom: 30px ;
+}
+#footer{
+	padding-top: 25px ;
+	padding-bottom: 25px ;
+	overflow: hidden ;
+	font-size: 12px ;
+}
+#footer{
+	background: url(../img/bg.png) ;
+	-moz-border-radius: 10px;-webkit-border-radius: 10px;
+	border-bottom: 2px solid black ;
+	border-top: 2px solid black ;
+}
+#bottom{
+	padding-top: 10px ;
+	padding-bottom: 50px ;
+}
+#bottom {
+	color: grey ;
+}
+#footer p {
+	padding-bottom: 15px ;
+	border-bottom: 2px solid white ;
+}
+.grid_2{
+    padding-left: 16px ;
+    padding-right: 16px ;
+}
+#footer a{
+color: white ;
+display: block;
+}
+#footer a:hover{
+color: grey ;
+}
+#footer span{
+color: grey ;
+}

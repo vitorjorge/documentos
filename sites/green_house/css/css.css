@@ -1,0 +1,241 @@
+body{
+    margin:0;
+    padding:0;
+    zoom:1;
+    overflow-y:scroll;
+}
+a, p, h1, h2, h3, h4, h5, h6 {font-family:sans-serif;}
+a {text-decoration:none;
+}
+ul {
+    list-style:none; 
+    margin:0;
+    padding:0;
+}
+
+/* #f2f7ef */
+
+/* #HEADER LOGO
+================================ */
+#header-logo {
+    text-align:center;
+    padding:2px 0px 2px 0px;
+}
+
+/* #HEADER MENU
+================================ */
+
+#wrap-header-menu {
+    background-color:#454141;
+    padding:5px 0px 5px 0px;
+}
+.menu li {
+    float:left;
+    padding:7px 0px 7px 0px;
+    margin-right:15px;
+}
+#header-menu a {
+    font-weight:bold;
+    font-size:14px;
+    color:white;
+    text-transform:uppercase;
+    -webkit-transition:0.3s;
+    transition:0.3s;
+}
+#header-menu a:hover, #header-menu .active a {
+    color:#58bf17;
+}
+#social ul {
+    float:right
+}
+
+/* #WRAP-SLIDER
+================================ */
+
+#wrap-slider {
+    background:url(../img/slider_bg.png);
+    text-align: center;
+    padding-bottom:40px;
+}
+.slogan {
+    text-align:center;
+    color: #84bb17;
+    font-size:18px;
+    margin:0;
+}
+#slider-slogan {
+    background:white;
+    padding:4px 12px 8px 12px;
+    display: inline-block;
+    font-size:17px;
+    color:#84bb17;
+    font-weight:bolder;
+    font-family:cursive;
+    margin-bottom:40px;
+}
+
+/* #4 ICONS /STAGES
+================================ */
+
+.stage-box {
+    text-align:center;
+}
+#wrap-stages {
+    border-bottom:1px solid #c6c6c6;
+    background-color:#f2f2f2;
+    padding:30px 0px 30px 0px;
+    margin-bottom:40px;
+}
+.stages-a {
+    font: 16px 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    color: #222222;
+}
+.stages-p {
+    font-size:14px;
+    color:grey;
+}
+#stage-box-img1 {
+   margin:0 auto;
+    background:url(../img/icones_logos/icon1_verde.png) no-repeat;
+    width:72px;
+    height:62px;
+}
+#stage-box-img1:hover {
+    background:url(../img/icones_logos/icon1_preto.png) no-repeat;
+}
+#stage-box-img2 {
+   margin:0 auto;
+    background:url(../img/icones_logos/icon2_verde.png) no-repeat;
+    width:72px;
+    height:62px;
+}
+#stage-box-img2:hover {
+    background:url(../img/icones_logos/icon2_preto.png) no-repeat;
+}
+#stage-box-img3 {
+   margin:0 auto;
+    background:url(../img/icones_logos/icon4_verde.png) no-repeat;
+    width:72px;
+    height:62px;
+}
+#stage-box-img3:hover {
+    background:url(../img/icones_logos/icon4_preto.png) no-repeat;
+}
+#stage-box-img4 {
+   margin:0 auto;
+    background:url(../img/icones_logos/icon3_verde.png) no-repeat;
+    width:72px;
+    height:62px;
+}
+#stage-box-img4:hover {
+    background:url(../img/icones_logos/icon3_preto.png) no-repeat;
+}
+.stages-img {
+    padding-bottom:7px;
+}
+
+/* #PROJECTS
+================================ */
+
+#projects {
+    text-align:center;
+}
+.projects-h2 {
+    margin:0;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #84bb17;
+    font-size: 20px;
+    line-height: 40px;
+}
+.projects-h1 {
+    margin:0;
+    font-size: 34px;
+    line-height: 48px;
+    font-weight:bold;
+    color: #222222;
+    text-transform: uppercase;
+}
+#wrap-projects {
+    margin-bottom:40px;
+}
+.project-box-img img{
+    width:210px;
+    height:212px;
+}
+.wrap-project {
+    border: 1px solid #e4e4e4;
+    background-color:#fafafa;
+    margin-bottom:20px;
+}
+.wrap-project-wrap {
+    padding:4px;
+}
+.abs {
+    z-index: 10;
+    right: 2px;
+    bottom: 6px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size:12px;
+    background-color: #628519;
+    text-transform: uppercase;
+    padding: 8px;
+     transition:0.3s;
+    -webkit-transition:0.3s;
+}
+.abs:hover{
+    background-color: #344513;
+    color: #fff;
+}
+.project-box-img {
+    position:relative;
+}
+.box-project-h1 {
+    margin:0;
+    text-align:left;
+    font-size:16px;
+    color: #222222;
+}
+
+.box-project-h2 {
+    margin:0;
+    text-align:left;
+    font-size:14px;
+    color:#747474;
+    font-weight:lighter;
+}
+.project-box-title {
+    padding:4px 0px 9px 5px;
+}
+
+/* #FOOTER
+================================ */
+
+#wrap-footer {
+    background-color:#454141;
+}
+
+#footer {
+    text-align:center;
+    padding:30px 0px 30px 0px;
+}
+#footer p {
+    color:white;
+    font-size:12px;
+}
+.link {
+    color:white;
+    transition:0.3s;
+    -webkit-transition:0.3s;
+}
+.link:hover{
+    color:yellow;
+    transition:0.3s;
+    -webkit-transition:0.3s;
+}
+#projects-title {
+    margin-bottom:10px;
+}
