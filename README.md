@@ -1,3 +1,6 @@
-# Tutorial
+# Old portfolio - Vitor Jorge
 
-This is my tutorial repository.
+I'm using github to host and publish my personal website, at: http://www.vitorjorge.github.io
+
+I want to be able to access this "old me" so I'm using Project Pages!
+http://www.vitorjorge.github.io/port-antigo/
